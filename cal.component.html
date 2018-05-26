@@ -1,0 +1,28 @@
+<p>
+  Калькулятор
+</p>
+<br>
+<body>
+<br>
+<input [(ngModel)]='num1' type="number" name="num1" placeholder="Первое число"> _
+<input [(ngModel)]='num2' type="number" name="num2" placeholder="Второе число">
+<br>
+<br>
+<button (click)='cal_add()'>
+  ADD +
+</button>
+<button (click)='cal_sub()'>
+  SUB -
+</button>
+<button (click)='cal_mul()'>
+  MUL *
+</button>
+<button (click)='cal_div()'>
+  DIV /
+</button>
+<br>
+<br>
+<br>
+<br>
+<h2>{{result}}</h2>
+</body>
